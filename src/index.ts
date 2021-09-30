@@ -18,7 +18,7 @@ readdir(directoryPath, function (err, files) {
         const fileName = file.split(".")[0]
 
         if(fileName.trim().length > 0){
-            if(i === 0)
+            if(types.length <=0)
                 types += fileName
             else
                 types += ` | ${fileName}`
