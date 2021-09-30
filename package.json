@@ -1,6 +1,6 @@
 {
   "name": "files-to-ts",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "convert file names into a typescript type",
   "main": "dist/index.js",
   "author": "Ntwari Clarance Liberiste <liberintwari@gmail.com>",
@@ -9,7 +9,7 @@
     "node": "^14.17.6"
   },
   "bin": {
-    "file-to-ts": "dist/index.js"
+    "files-to-ts": "dist/index.js"
   },
   "scripts": {
     "build": "npm-run-all clean tsc",
