@@ -1,12 +1,15 @@
 {
   "name": "files-to-ts",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "convert file names into a typescript type",
   "main": "dist/index.js",
-  "author": "",
-  "license": "UNLICENSED",
+  "author": "Ntwari Clarance Liberiste <liberintwari@gmail.com>",
+  "license": "MIT",
   "engines": {
     "node": "^14.17.6"
+  },
+  "bin": {
+    "file-to-ts": "dist/index.js"
   },
   "scripts": {
     "build": "npm-run-all clean tsc",
