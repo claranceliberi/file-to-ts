@@ -1,6 +1,6 @@
 {
   "name": "files-to-ts",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "convert file names into a typescript type",
   "main": "dist/index.js",
   "author": "Ntwari Clarance Liberiste <liberintwari@gmail.com>",
